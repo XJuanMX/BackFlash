@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="utf-8">
+      <title>Registro</title>
+      <link rel="stylesheet" href="css/sign-in.css">
+      <link rel="shortcut icon" href="img/ico-.png" type="image/x-icon">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+   <body>
+      <div class="container">
+         <img src="img/B.png" alt="Logo"><br><br><br>
+         <div class="progress-bar">
+            <div class="step">
+               <p>Contacto</p>
+               <div class="bullet">
+                  <span>1</span>
+               </div>
+               <div class="check fas fa-check"></div>
+            </div>
+            <div class="step">
+               <p>Nacimiento</p>
+               <div class="bullet">
+                  <span>2</span>
+               </div>
+               <div class="check fas fa-check"></div>
+            </div>
+            <div class="step">
+               <p>Registro</p>
+               <div class="bullet">
+                  <span>3</span>
+               </div>
+               <div class="check fas fa-check"></div>
+            </div>
+         </div>
+         <div class="form-outer">
+            <form action="sign-in_.php" method="post">
+               <div class="page slide-page">
+                  <div class="field">
+                     <input type="email" placeholder="Correo electrónico" name="email" required>
+                  </div>
+                  <div class="field">
+                     <input type="Number" placeholder="Numero de Telefono" min="99999" max="10000000000000000" name="tel" required>
+                  </div><br><br>
+                  <div class="field1 btns">
+                     <button class="firstNext next">Siguiente</button>
+                  </div>
+               </div>
+               <div class="page">
+                  <div class="field">
+                     <input type="date" placeholder="Fecha" name="date" required>
+                  </div>
+                  <div class="field">
+                     <select name="sex">
+                        <option>Seleccione...</option>
+                        <option>Masculino</option>
+                        <option>Femenino</option>
+                        <option>Otro</option>
+                     </select>
+                  </div><br><br>
+                  <div class="field1 btns">
+                     <button class="prev-1 prev">Anterior</button>
+                     <button class="next-1 next">Siguiente</button>
+                  </div>
+               </div>
+               <div class="page">
+                  <div class="field">
+                     <input type="text" placeholder="Nombre de Usuario" name="name" required>
+                  </div>
+                  <div class="field">
+                     <input type="password" placeholder="Contraseña" name="pass" minlength="8" maxlength="16" required>
+                  </div><br><br>
+                  <div class="field1 btns">
+                     <button class="prev-2 prev">Anterior</button>
+                     <button class="submit">Registrar</button><br>
+                  </div>
+               </div>
+            </form>
+         </div>
+      </div>
+      <script src="js/function.js"></script>
+   </body>
+</html>

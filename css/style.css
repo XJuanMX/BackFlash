@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    Padding: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Libre Bodoni', serif;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.head{
+    text-align: center;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.publicacion{
+    background: rgb(33, 40, 229);
+}
+
+.logoP{
+    width: 200px;
+} 
+
+/* .is{
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+} */
+
+.mn{
+    color: rgb(19, 9, 166);
+}
+
+.wm{
+    color: rgb(196, 28, 165);
+}
+
+.like{
+    position: relative;
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.dislike{
+    position: relative;
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.comentario{
+    color: #000;
+    position: relative;
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.perfil1{
+    position: relative;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+
+
+.card-service i{
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+}
+
+.spread{
+    transform: translate(0);
+}
+
+.menu-navegacion a{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+    padding: 2px 7px 2px 7px;
+    color: #666;
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    text-decoration: none;
+}
+.menu-navegacion a:hover{
+    background-color: #fafafa;
+    color: #000;
+ }

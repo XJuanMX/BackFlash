@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(245, 245, 245);
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+    text-align: center;
+    color: #000;
+}
+
+.gen-public {
+    border-radius: 22px;
+    box-shadow: 5px 5px 10px #acacac, -5px -5px 10px #ffffff;
+    width: 40vh;
+    height: 50vh;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.options{
+    display: flex;
+    width: 300px;
+    list-style: none;
+}
+
+.option{
+    border-radius: 5px;
+    flex-grow: 1;
+    text-align: center;
+    line-height: 40px;
+    border: solid 1px rgb(0, 0, 0);
+    color: #000;
+    cursor: pointer;
+}
+
+.contents{
+    width: 100%;
+    height: 85%;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    display: none;
+}
+.content-active{
+    display: block;
+}
+
+.option-active{
+    background: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.gen-public img {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+/* .gen-public h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+} */
+
+.gen-public input {
+    width: 100%;
+    margin: 60px 0 10px 0;
+}
+
+.gen-public input[type="email"] {
+    margin-top: 60px;
+}
+
+.gen-public input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #000;
+    font-size: 16px;
+}
+
+.gen-public input[type="submit"] {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(245, 245, 245);
+    box-shadow:  5px 5px 5px #b0b0b0, -5px -5px 5px #ffffff;
+    color: #000;
+    font-size: 18px;
+    border-radius: 20px;
+    margin: 90px 0 40px 0;
+}
+
+
+.gen-public:hover {
+    transform: scale(1.05);
+    transition: 0.5S;
+    box-shadow:  15px 15px 30px rgb(176, 176, 176), -15px -15px 30px #ffffff;
+}
+
+
+.gen-public input[type="submit"]:hover {
+    box-shadow: inset 5px 5px 5px rgb(176, 176, 176), inset -5px -5px 5px #ffffff;
+    font-size: 17px;
+}

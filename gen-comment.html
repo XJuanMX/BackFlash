@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/gen-comment.css" type="text/css">
+    <link rel="shortcut icon" href="img/ico-.png" type="image/x-icon">
+    <title>Comenta</title>
+</head>
+
+<body>
+    <main>
+        <div class="gen-comment">
+            <ul class="options">
+                <li id="option1" class="option option-active">Publico</li>
+                <li id="option2" class="option">Privado</li>
+            </ul><br><br>
+            <form action="gen-comment_.php" method="post" id="content1" class="content content-active">
+                <header>Escribe Tu Opinion</header>
+                <!-- <label for="username">Usuario</label> -->
+                <input type="text" placeholder="Escribe" name="commen" required>
+
+                <input type="submit" value="Comentar">
+
+            </form>
+            <form action="gen-comment_.php" method="post" id="content2" class="content">
+                <header>Escribe Tu Reseña</header>
+                <!-- <label for="username">Usuario</label> -->
+                <input type="text" placeholder="Escribe" name="commen" required>
+
+                <input type="submit" value="Comentar"  href="index.html">
+
+            </form>
+        </div>
+    </main>
+    <script src="js/function3.js"></script>
+</body>
+</html>

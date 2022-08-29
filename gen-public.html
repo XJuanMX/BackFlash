@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/gen-public.css" type="text/css">
+    <link rel="shortcut icon" href="img/ico-.png" type="image/x-icon">
+    <title>Publica</title>
+</head>
+
+<body>
+    <div class="gen-public">
+        <ul class="options">
+            <li id="option1" class="option option-active">Publico</li>
+            <li id="option2" class="option">Privado</li>
+        </ul><br><br>
+        <form action="gen-public_.php" method="post" id="content1" class="content content-active">
+            <header>Escribe Tu Historia</header>
+            <!-- <label for="username">Usuario</label> -->
+            <input type="text" placeholder="Escribe" name="public" required>
+
+            <input type="submit" value="Publicar">
+
+        </form>
+        <form action="gen-public_.php" method="post" id="content2" class="content">
+            <header>Escribe Tu Secreto</header>
+            <!-- <label for="username">Usuario</label> -->
+            <input type="text" placeholder="Escribe" name="private" required>
+
+            <input type="submit" value="Publicar">
+
+        </form>
+    </div>
+    <script src="js/function2.js"></script>
+</body>
+</html>
